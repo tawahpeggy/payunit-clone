@@ -1,0 +1,23 @@
+{
+  "name": "payunit-clone",
+  "version": "1.0.0",
+  "description": "This repo is a clone of payunit.net's home page done by me in other to help me practice my css skills",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tawahpeggy/payunit-clone.git"
+  },
+  "author": "tawahpeggy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tawahpeggy/payunit-clone/issues"
+  },
+  "homepage": "https://github.com/tawahpeggy/payunit-clone#readme",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "sass": "^1.49.9"
+  }
+}
