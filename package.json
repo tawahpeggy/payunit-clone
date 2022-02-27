@@ -18,6 +18,7 @@
   "homepage": "https://github.com/tawahpeggy/payunit-clone#readme",
   "dependencies": {
     "jquery": "^3.6.0",
+    "node-sass": "^7.0.1",
     "sass": "^1.49.9"
   }
 }
