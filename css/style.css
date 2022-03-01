@@ -1,8 +1,11 @@
 html {
   font-size: 10px; }
 
-form {
-  position: absolute; }
+.logo {
+  width: 10rem; }
+
+.logo {
+  width: 10rem; }
 
 .footer__button {
   background-color: orange;
