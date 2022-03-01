@@ -1,0 +1,30 @@
+html {
+  font-size: 10px; }
+
+form {
+  position: absolute; }
+
+.footer__button {
+  background-color: orange;
+  border-radius: 3rem;
+  color: white;
+  font-size: 1.5rem;
+  padding: 2rem;
+  width: 15rem; }
+
+.footer__body {
+  background-color: black;
+  margin: 0 auto; }
+
+.footer__heading {
+  color: orange;
+  font-size: 5rem;
+  text-align: center; }
+
+.gps__logo {
+  width: 12rem;
+  float: right; }
+
+input[type=text], [type=email], [type=number] {
+  padding: 1rem;
+  margin: 0 1rem 0 1rem; }

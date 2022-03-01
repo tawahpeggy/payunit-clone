@@ -1,0 +1,20 @@
+.footer__body {
+background-color: $primary-black-color;
+margin: 0 auto;
+// position: relative;
+}
+
+.footer__heading {
+    color: $first-primary-color;
+    font-size: 5rem;
+    text-align: center;
+}
+.gps__logo {
+width: 12rem;
+float: right;
+}
+input[type=text],[type=email],[type=number] {
+    padding: 1rem;
+    margin: 0 1rem 0 1rem;
+
+}
