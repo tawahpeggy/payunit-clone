@@ -4,9 +4,6 @@ html {
 .logo {
   width: 10rem; }
 
-.logo {
-  width: 10rem; }
-
 .footer__button {
   background-color: orange;
   border-radius: 3rem;
@@ -14,6 +11,26 @@ html {
   font-size: 1.5rem;
   padding: 2rem;
   width: 15rem; }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row .col-1-of-3 {
+    background-color: chocolate;
+    width: calc((100% -2 * 6rem) / 3); }
+  .row .col-2-of-3 {
+    background-color: aquamarine;
+    width: calc(2*(100% -2 * 6rem) / 3) + 6rem; }
 
 .footer__body {
   background-color: black;
