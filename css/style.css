@@ -4,6 +4,9 @@ html {
 .logo {
   width: 10rem; }
 
+.privacy {
+  float: left; }
+
 .footer__button {
   background-color: orange;
   border-radius: 3rem;
@@ -31,10 +34,12 @@ html {
   .row .col-2-of-3 {
     background-color: aquamarine;
     width: calc(2*(100% -2 * 6rem) / 3) + 6rem; }
+  .row .col-1-of-2 {
+    background-color: grey;
+    width: calc((100% -2 * 6rem) / 2); }
 
 .footer__body {
-  background-color: black;
-  margin: 0 auto; }
+  background-color: black; }
 
 .footer__heading {
   color: orange;

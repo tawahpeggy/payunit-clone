@@ -23,4 +23,8 @@
         background-color: aquamarine;
         width: calc(2*(100% -2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal};
     }
+    .col-1-of-2 {
+        background-color:grey;
+        width: calc((100% -2 * #{$gutter-horizontal}) / 2);
+    }
 }
