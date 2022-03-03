@@ -19,5 +19,12 @@ li {
 .header__row {
     background-color: $second-primary-color;
     padding-top: 2rem;
+    min-height: 100vh;
+    clip-path: ellipse(100% 100% at 0% 0%);
+    // clip-path: polygon(100% 100%, 100% 100%, 50% 100%, 100% 50%);
+
+    // clip-path: polygon(100% 100%, 100% 100%, 100% 100%,  100% 50%);
+    // clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 80%);
+
 
 }

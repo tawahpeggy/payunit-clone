@@ -53,7 +53,9 @@ li {
 
 .header__row {
   background-color: #52898B;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  min-height: 100vh;
+  clip-path: ellipse(100% 100% at 0% 0%); }
 
 .footer__body {
   background-color: black; }
