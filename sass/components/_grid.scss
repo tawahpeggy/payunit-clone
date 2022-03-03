@@ -15,12 +15,10 @@
         }
     }
     .col-1-of-3 {
-        background-color: chocolate;
         width: calc((100% -2 * #{$gutter-horizontal}) / 3);
     }
 
     .col-2-of-3 {
-        background-color: aquamarine;
         width: calc(2*(100% -2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal};
     }
     .col-1-of-2 {

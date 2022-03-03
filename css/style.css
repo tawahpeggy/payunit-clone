@@ -29,14 +29,31 @@ html {
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
   .row .col-1-of-3 {
-    background-color: chocolate;
     width: calc((100% -2 * 6rem) / 3); }
   .row .col-2-of-3 {
-    background-color: aquamarine;
     width: calc(2*(100% -2 * 6rem) / 3) + 6rem; }
   .row .col-1-of-2 {
     background-color: grey;
     width: calc((100% -2 * 6rem) / 2); }
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-size: 1.5rem;
+  margin: 1rem;
+  color: white; }
+  li:hover {
+    color: orange;
+    text-decoration: solid underline orange 0.1rem;
+    transition: all 1s; }
+  li:active {
+    text-decoration: underline; }
+
+.header__row {
+  background-color: #52898B;
+  padding-top: 2rem; }
 
 .footer__body {
   background-color: black; }

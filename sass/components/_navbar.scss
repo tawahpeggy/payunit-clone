@@ -1,0 +1,23 @@
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: $color-white;
+
+    &:hover {
+        color: $first-primary-color;
+        text-decoration: solid underline $first-primary-color .1rem;
+        transition: all 1s;
+    }
+    &:active {
+        text-decoration: underline;
+    }
+}
+.header__row {
+    background-color: $second-primary-color;
+    padding-top: 2rem;
+
+}
