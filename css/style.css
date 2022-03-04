@@ -9,13 +9,32 @@ html {
 .privacy {
   float: left; }
 
-.footer__button {
+.btn-primary {
   background-color: #F89623;
   border-radius: 3rem;
   color: white;
   font-size: 1.5rem;
   padding: 2rem;
-  width: 15rem; }
+  width: 12rem;
+  border: none; }
+
+.btn-white {
+  background-color: white;
+  border-radius: 3rem;
+  color: #F89623;
+  font-size: 1.5rem;
+  padding: 2rem;
+  width: 12rem;
+  border: none; }
+
+.btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative; }
 
 .row {
   max-width: 114rem;
@@ -48,7 +67,7 @@ li {
   color: white; }
   li:hover {
     color: #F89623;
-    text-decoration: solid underline #F89623 0.1rem;
+    border-bottom: solid #F89623 0.1rem;
     transition: all 1s; }
   li:active {
     text-decoration: underline; }
