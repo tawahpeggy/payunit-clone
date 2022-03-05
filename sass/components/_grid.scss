@@ -11,7 +11,7 @@
         float: left;
 
         &:not(:last-child) {
-            margin-right: $gutter-horizontal;
+            // margin-right: $gutter-horizontal;
         }
     }
     .col-1-of-3 {

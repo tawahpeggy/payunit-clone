@@ -12,7 +12,9 @@ html {
 
 .best__header {
   color: #F89623;
-  font-size: 3rem; }
+  font-size: 5rem;
+  text-align: center;
+  padding: 3rem; }
 
 .btn-primary {
   background-color: #F89623;
@@ -52,14 +54,12 @@ html {
     clear: both; }
   .row [class^="col-"] {
     float: left; }
-    .row [class^="col-"]:not(:last-child) {
-      margin-right: 6rem; }
   .row .col-1-of-3 {
-    width: calc((100% -2 * 6rem) / 3); }
+    width: calc((100% -2 * 1rem) / 3); }
   .row .col-2-of-3 {
-    width: calc(2*(100% -2 * 6rem) / 3) + 6rem; }
+    width: calc(2*(100% -2 * 1rem) / 3) + 1rem; }
   .row .col-1-of-2 {
-    width: calc((100% -2 * 6rem) / 2); }
+    width: calc((100% -2 * 1rem) / 2); }
 
 li {
   list-style: none;
