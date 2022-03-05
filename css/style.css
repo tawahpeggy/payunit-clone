@@ -10,6 +10,10 @@ html {
 .privacy {
   float: left; }
 
+.best__header {
+  color: #F89623;
+  font-size: 3rem; }
+
 .btn-primary {
   background-color: #F89623;
   border-radius: 3rem;
