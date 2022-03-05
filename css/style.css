@@ -1,13 +1,20 @@
 html {
   font-size: 10px;
-  box-sizing: border-box;
-  width: 100vw; }
+  box-sizing: content-box;
+  width: 100vw;
+  font-family: Arial, sans-serif; }
 
 .logo {
   width: 10rem; }
 
 .privacy {
   float: left; }
+
+.best__header {
+  color: #F89623;
+  font-size: 5rem;
+  text-align: center;
+  padding: 3rem; }
 
 .btn-primary {
   background-color: #F89623;
@@ -47,15 +54,12 @@ html {
     clear: both; }
   .row [class^="col-"] {
     float: left; }
-    .row [class^="col-"]:not(:last-child) {
-      margin-right: 6rem; }
   .row .col-1-of-3 {
-    width: calc((100% -2 * 6rem) / 3); }
+    width: calc((100% -2 * 1rem) / 3); }
   .row .col-2-of-3 {
-    width: calc(2*(100% -2 * 6rem) / 3) + 6rem; }
+    width: calc(2*(100% -2 * 1rem) / 3) + 1rem; }
   .row .col-1-of-2 {
-    background-color: grey;
-    width: calc((100% -2 * 6rem) / 2); }
+    width: calc((100% -2 * 1rem) / 2); }
 
 li {
   list-style: none;
@@ -76,22 +80,42 @@ li {
   background-color: #52898B;
   padding-top: 2rem;
   min-height: 100vh;
-  max-height: 100vh;
   clip-path: ellipse(100% 100% at 0% 0%); }
 
 .header__row-2 {
   font-size: 2.5rem;
   color: #F89623;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+  padding-bottom: 5rem; }
 
 .header__text {
-  font-size: 3rem;
   display: block;
-  color: white; }
+  color: white;
+  padding-bottom: .8rem;
+  font-size: 4rem;
+  font-weight: 600; }
+
+.header__row-3 {
+  position: relative; }
+
+.header__image-1 {
+  left: 7rem;
+  top: 15rem;
+  transition: all; }
+
+.header__image-2 {
+  top: -5rem;
+  right: -20%; }
+
+.header__image-3 {
+  right: -10;
+  top: 3rem; }
 
 .header__image {
-  width: 50rem;
-  height: auto; }
+  position: absolute;
+  z-index: 10; }
+
+.header__row-2 {
+  margin-bottom: 3rem; }
 
 .footer__body {
   background-color: black; }
