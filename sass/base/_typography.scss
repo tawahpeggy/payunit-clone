@@ -9,9 +9,20 @@
     font-size: 5rem;
     text-align: center;
     padding: 3rem;
+    margin-top: 15rem
 }
 
-h3 {
-    color: $second-primary-color;
+.h3__1 {
+    @include h3;
     font-size: 2.5rem;
+}
+.think__p {
+    @include paragraphStyle;
+    font-size: 2.5rem;  
+}
+
+.design__header {
+    @include h3;
+    font-size: 4rem;
+
 }

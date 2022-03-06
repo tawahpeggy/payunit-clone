@@ -1,12 +1,7 @@
 .best {
  &__p {
      font-size: 1.5rem;
-     padding: .3rem;
-     color: $color-grey;
-     font-weight: 700;
-     text-align: justify;
-     line-height: 3rem;
-    //  letter-spacing: .1rem;
+    @include paragraphStyle;
 
  }
  &__icon {
@@ -16,10 +11,9 @@
      display: inline-block;
      transform: rotate(20deg);
  }
- &__img {
-    //  margin:4rem;
-    //  padding: auto;
-    //  align-items: flex-end;
-    //  text-align: center;
- }
+
+}
+.partner__row {
+   box-shadow: 10px 10px 10px 8px #1a161615; 
+   padding: 5rem;
 }

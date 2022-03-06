@@ -20,8 +20,8 @@ li {
   &__row {
     background-color: $second-primary-color;
     padding-top: 2rem;
-    min-height: 100vh;
-    clip-path: ellipse(100% 100% at 0% 0%);
+    min-height: 110vh;
+    // clip-path: ellipse(100% 100% at 0% 0%);
   }
 
   &__row-2 {
