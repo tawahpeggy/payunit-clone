@@ -2,8 +2,8 @@ body {
     background: #f1f1f1;
   }
   
-  /* The laptop with borders */
-  .laptop {
+  /* The desktop with borders */
+  .desktop {
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
     -webkit-transform: scale(.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
@@ -20,12 +20,12 @@ body {
   
   }
   
-  /* The keyboard of the laptop */
-  .laptop:after {
+  /* The keyboard of the desktop */
+  .desktop:after {
     content: '';
     display: block;
     position: absolute;
-    width: 1600px;
+    width: 160px;
     height: 60px;
     margin: 80px 0 0 -110px;
     background: black;
@@ -33,7 +33,7 @@ body {
   }
   
   /* The top of the keyboard */
-  .laptop:before {
+  .desktop:before {
     content: '';
     display: block;
     position: absolute;
@@ -50,7 +50,7 @@ body {
   }
   
   /* The screen (or content) of the device */
-  .laptop .content {
+  .desktop .content {
     width: 1366px;
     height: 800px;
     overflow: hidden;
