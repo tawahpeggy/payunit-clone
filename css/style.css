@@ -16,6 +16,23 @@ html {
   text-align: center;
   padding: 3rem; }
 
+h3 {
+  color: #52898B;
+  font-size: 2.5rem; }
+
+.best__p {
+  font-size: 1.5rem;
+  padding: .3rem;
+  color: rgba(0, 0, 0, 0.596);
+  font-weight: 700; }
+
+.best__icon {
+  color: #52898B;
+  font-size: larger;
+  font-weight: bolder;
+  display: inline-block;
+  transform: rotate(20deg); }
+
 .btn-primary {
   background-color: #F89623;
   border-radius: 3rem;
@@ -55,11 +72,11 @@ html {
   .row [class^="col-"] {
     float: left; }
   .row .col-1-of-3 {
-    width: calc((100% -2 * 1rem) / 3); }
+    width: calc((100% -2 * 0.1rem) / 3); }
   .row .col-2-of-3 {
-    width: calc(2*(100% -2 * 1rem) / 3) + 1rem; }
+    width: calc(2*(100% -2 * 0.1rem) / 3) + 0.1rem; }
   .row .col-1-of-2 {
-    width: calc((100% -2 * 1rem) / 2); }
+    width: calc((100% -2 * 0.1rem) / 2); }
 
 li {
   list-style: none;

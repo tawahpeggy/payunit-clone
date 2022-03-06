@@ -1,0 +1,16 @@
+.best {
+ &__p {
+     font-size: 1.5rem;
+     padding: .3rem;
+     color: $color-grey;
+     font-weight: 700;
+
+ }
+ &__icon {
+    color: $second-primary-color;
+    font-size: larger;
+     font-weight:bolder;
+     display: inline-block;
+     transform: rotate(20deg);
+ }
+}
