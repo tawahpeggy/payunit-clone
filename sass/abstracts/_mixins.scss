@@ -5,3 +5,13 @@
         clear: both;
     }
 }
+
+@mixin paragraphStyle {
+    padding: .3rem;
+    color: $color-grey;
+    text-align: left;
+    line-height: 3rem;
+}
+@mixin h3 {
+    color: $second-primary-color;
+}
