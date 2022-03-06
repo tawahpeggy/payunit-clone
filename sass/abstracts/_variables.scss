@@ -2,13 +2,13 @@ $first-primary-color : #F89623;
 $second-primary-color:#52898B;
 $primary-black-color : black;
 $color-white : white;
-$color-grey: #E9BB9A;
+$color-grey: rgba(0, 0, 0, 0.596);
 
 // grid variables
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
-$gutter-horizontal: 1rem;
+$gutter-horizontal: .1rem;
 
 
 // font size
-$default-font-size:2rem;
+$default-font-size:4rem;
