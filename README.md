@@ -8,7 +8,7 @@ This repo contains a clone of <a href="https://payunit.net/"> payunit's </a> hom
 
 ## 🛠 Installation
 
-- Run the following command to clone the repository.
+- Run the following command to clone this repository.
 
 <pre> <code>git clone https://github.com/tawahpeggy/payunit-clone.git</code></pre>
  
