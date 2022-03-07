@@ -43,7 +43,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 All rights reserved.
-Feel free to copy,clone or fork, and use as you deem fit
+Feel free to copy,clone or fork, and use it as you like
 
 ## Pages
 
