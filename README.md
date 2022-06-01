@@ -59,4 +59,3 @@ Feel free to copy,clone or fork, and use it as you like
 
 - Best features section
 ![best-features](https://user-images.githubusercontent.com/40355086/156949092-24837900-7962-4228-b036-7f9a8aefe05c.JPG)
-
